@@ -1,0 +1,35 @@
+syntax on
+syntax enable
+set number
+set tw=79
+set background=dark
+set cursorline
+if exists("&colorcolumn")
+        set colorcolumn=79
+            hi ColorColumn ctermbg=red
+endif
+
+" Behavior"
+set hlsearch
+set noerrorbells
+set vb t_vb=
+set nowrap
+set autoindent
+set smartindent
+set tabstop=4
+set shiftwidth=4
+set matchpairs+=<:>
+set softtabstop=4
+set shiftround
+set scrolloff=100
+set list
+set listchars=trail:~
+set incsearch
+set smarttab
+set expandtab
+set ignorecase
+set smartcase
+set backspace=indent,eol,start
+set ruler
+set statusline+=%F
+set tags=./TAGS;/,TAGS;/
